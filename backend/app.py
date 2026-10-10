@@ -113,8 +113,8 @@ def initialize_app():
         tourism_data = place_index.places
         logger.info(f"Loaded {len(tourism_data)} schema-native places from place_master.json")
         try:
-            planner = initialize_system(knowledge_items=tourism_data)
-            logger.info("Tourism planning system initialized (place_master-based RAG)")
+            planner = None  # Render free tier: defer RAG initialization
+            logger.info("RAG initialization deferred for Render free tier")
         except Exception as e:
             logger.warning(f"Cannot initialize Ollama: {e}")
             logger.info("Please ensure Ollama is installed and running 'ollama serve'")
@@ -152,8 +152,8 @@ def initialize_app():
         
         if tourism_data:
             knowledge_file = str(build_knowledge_base(tourism_data))
-        planner = initialize_system(knowledge_file)
-        logger.info("Tourism planning system initialized")
+        planner = None  # Render free tier: defer RAG initialization
+        logger.info("RAG initialization deferred for Render free tier")
     except Exception as e:
         logger.warning(f"Cannot initialize Ollama: {e}")
         logger.info("Please ensure Ollama is installed and running 'ollama serve'")
