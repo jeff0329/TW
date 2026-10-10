@@ -1,0 +1,33 @@
+﻿# Python 虛擬環境與快取
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# 環境變數與敏感資料
+.env
+.env.*
+!.env.example
+data/users.json
+
+# 日誌與執行產生的檔案
+logs/
+*.log
+
+# 備份檔
+*.bak
+*.backup
+*.backup.*
+
+# 編輯器與作業系統檔案
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.bak.*
+*.backup_*
+*.price-backup
+*.before-deploy.bak
+
+# PowerShell module analysis cache
+/Microsoft/Windows/PowerShell/ModuleAnalysisCache

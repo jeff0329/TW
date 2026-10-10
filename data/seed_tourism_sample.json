@@ -1,0 +1,207 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-08-24T00:00:00Z",
+  "places": [
+    {
+      "place_id": "TDX-ScenicSpot-TPE-101",
+      "source": "TDX",
+      "source_type": "scenic",
+      "name": "台北101觀景台",
+      "alias": ["Taipei 101 Observatory"],
+      "city": "台北市",
+      "district": "信義區",
+      "address": "台北市信義區信義路五段7號",
+      "lat": 25.033968,
+      "lon": 121.564468,
+      "category_lv1": "城市地標",
+      "category_lv2": "觀景",
+      "tags": ["夜景", "親子", "室內"],
+      "description": "台灣指標性摩天大樓，觀景台可俯瞰台北市景。",
+      "intro_short": "台北經典地標，適合安排白天與夜景行程。",
+      "phone": "02-81018898",
+      "website": "https://www.taipei-101.com.tw",
+      "image_urls": ["https://example.com/taipei101.jpg"],
+      "rating": 4.6,
+      "review_count": 12540,
+      "price_level": 3,
+      "avg_cost_twd": 600,
+      "stay_minutes_min": 60,
+      "stay_minutes_max": 120,
+      "open_hours_text": "11:00-21:00",
+      "open_hours_normalized": {
+        "mon": [["11:00", "21:00"]],
+        "tue": [["11:00", "21:00"]],
+        "wed": [["11:00", "21:00"]],
+        "thu": [["11:00", "21:00"]],
+        "fri": [["11:00", "21:00"]],
+        "sat": [["11:00", "21:00"]],
+        "sun": [["11:00", "21:00"]]
+      },
+      "closed_dates": [],
+      "suitable_time_slots": ["afternoon", "evening", "night"],
+      "transport_access": {
+        "nearest_station": "捷運台北101/世貿站",
+        "walk_minutes": 5,
+        "parking": true
+      },
+      "data_quality_score": 0.95,
+      "updated_at": "2026-08-24T00:00:00Z",
+      "raw_payload": {
+        "source_record_id": "mock-001"
+      }
+    },
+    {
+      "place_id": "TDX-Restaurant-TPE-DIN",
+      "source": "TDX",
+      "source_type": "restaurant",
+      "name": "鼎泰豐（信義店）",
+      "alias": ["Din Tai Fung Xinyi"],
+      "city": "台北市",
+      "district": "信義區",
+      "address": "台北市信義區松高路19號",
+      "lat": 25.040122,
+      "lon": 121.566889,
+      "category_lv1": "美食",
+      "category_lv2": "中式",
+      "tags": ["小籠包", "排隊名店"],
+      "description": "知名台式餐飲品牌，主打小籠包與經典中式點心。",
+      "intro_short": "交通便利，適合安排在市區觀光之間的午晚餐。",
+      "phone": "02-23458888",
+      "website": "https://www.dintaifung.com.tw",
+      "image_urls": ["https://example.com/dtf.jpg"],
+      "rating": 4.5,
+      "review_count": 9800,
+      "price_level": 3,
+      "avg_cost_twd": 500,
+      "stay_minutes_min": 60,
+      "stay_minutes_max": 90,
+      "open_hours_text": "10:30-21:30",
+      "open_hours_normalized": {
+        "mon": [["10:30", "21:30"]],
+        "tue": [["10:30", "21:30"]],
+        "wed": [["10:30", "21:30"]],
+        "thu": [["10:30", "21:30"]],
+        "fri": [["10:30", "21:30"]],
+        "sat": [["10:30", "21:30"]],
+        "sun": [["10:30", "21:30"]]
+      },
+      "closed_dates": [],
+      "suitable_time_slots": ["afternoon", "evening"],
+      "transport_access": {
+        "nearest_station": "捷運市政府站",
+        "walk_minutes": 8,
+        "parking": true
+      },
+      "data_quality_score": 0.92,
+      "updated_at": "2026-08-24T00:00:00Z",
+      "raw_payload": {
+        "source_record_id": "mock-002"
+      }
+    },
+    {
+      "place_id": "TDX-Hotel-TPE-W",
+      "source": "TDX",
+      "source_type": "hotel",
+      "name": "W Taipei",
+      "alias": ["台北W飯店"],
+      "city": "台北市",
+      "district": "信義區",
+      "address": "台北市信義區忠孝東路五段10號",
+      "lat": 25.040876,
+      "lon": 121.567123,
+      "category_lv1": "住宿",
+      "category_lv2": "五星飯店",
+      "tags": ["都會", "高樓層景觀"],
+      "description": "位於信義商圈的高級飯店，交通便利且生活機能完整。",
+      "intro_short": "適合商務與都會旅遊，步行可達多個景點與百貨。",
+      "phone": "02-77038888",
+      "website": "https://www.marriott.com",
+      "image_urls": ["https://example.com/wtaipei.jpg"],
+      "rating": 4.4,
+      "review_count": 4200,
+      "price_level": 4,
+      "avg_cost_twd": 9000,
+      "stay_minutes_min": 720,
+      "stay_minutes_max": 960,
+      "open_hours_text": "24H",
+      "open_hours_normalized": {
+        "mon": [["00:00", "24:00"]],
+        "tue": [["00:00", "24:00"]],
+        "wed": [["00:00", "24:00"]],
+        "thu": [["00:00", "24:00"]],
+        "fri": [["00:00", "24:00"]],
+        "sat": [["00:00", "24:00"]],
+        "sun": [["00:00", "24:00"]]
+      },
+      "closed_dates": [],
+      "suitable_time_slots": ["night"],
+      "transport_access": {
+        "nearest_station": "捷運市政府站",
+        "walk_minutes": 3,
+        "parking": true
+      },
+      "data_quality_score": 0.9,
+      "updated_at": "2026-08-24T00:00:00Z",
+      "raw_payload": {
+        "source_record_id": "mock-003"
+      }
+    }
+  ],
+  "rag_documents": [
+    {
+      "doc_id": "DOC-TDX-ScenicSpot-TPE-101-0",
+      "place_id": "TDX-ScenicSpot-TPE-101",
+      "chunk_index": 0,
+      "chunk_text": "台北101觀景台位於台北市信義區，是台北代表性地標。建議停留60到120分鐘，適合下午到夜間安排，平均花費約600元。",
+      "chunk_tokens_est": 72,
+      "lang": "zh-TW",
+      "keywords": ["台北101", "夜景", "信義區", "觀景台"],
+      "embedding_model": "bge-m3",
+      "embedding_ref": "vec://tourism/DOC-TDX-ScenicSpot-TPE-101-0",
+      "freshness_days": 0
+    },
+    {
+      "doc_id": "DOC-TDX-Restaurant-TPE-DIN-0",
+      "place_id": "TDX-Restaurant-TPE-DIN",
+      "chunk_index": 0,
+      "chunk_text": "鼎泰豐信義店交通方便，適合安排午餐或晚餐，建議停留60到90分鐘，人均約500元。",
+      "chunk_tokens_est": 48,
+      "lang": "zh-TW",
+      "keywords": ["鼎泰豐", "小籠包", "台北美食"],
+      "embedding_model": "bge-m3",
+      "embedding_ref": "vec://tourism/DOC-TDX-Restaurant-TPE-DIN-0",
+      "freshness_days": 0
+    }
+  ],
+  "route_edges": [
+    {
+      "from_place_id": "TDX-ScenicSpot-TPE-101",
+      "to_place_id": "TDX-Restaurant-TPE-DIN",
+      "mode": "walk",
+      "distance_km": 0.9,
+      "duration_min": 12,
+      "cost_twd": 0,
+      "updated_at": "2026-08-24T00:00:00Z"
+    },
+    {
+      "from_place_id": "TDX-Restaurant-TPE-DIN",
+      "to_place_id": "TDX-Hotel-TPE-W",
+      "mode": "walk",
+      "distance_km": 0.4,
+      "duration_min": 6,
+      "cost_twd": 0,
+      "updated_at": "2026-08-24T00:00:00Z"
+    }
+  ],
+  "constraint_profile_example": {
+    "profile_id": "PROFILE-DEMO-TPE-3D",
+    "total_budget_twd": 15000,
+    "days": 3,
+    "daily_start_time": "09:00",
+    "daily_end_time": "21:00",
+    "max_move_minutes_per_day": 120,
+    "preferred_modes": ["metro", "walk"],
+    "must_visit_place_ids": ["TDX-ScenicSpot-TPE-101"],
+    "avoid_tags": ["高海拔", "長時間步行"]
+  }
+}

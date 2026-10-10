@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <title>旅遊商品 Selenium 測試頁</title>
+  <style>
+    .product-card { border: 1px solid #ccc; margin: 8px; padding: 12px; }
+    .product-title { font-weight: bold; }
+    .price, .location { display: block; }
+  </style>
+</head>
+<body>
+  <main id="results">
+    <article class="product-card" data-id="fixture-1">
+      <span class="product-title">台北歷史文化一日遊</span>
+      <span class="price">NT$1,200</span>
+      <span class="location">台北市</span>
+    </article>
+    <article class="product-card" data-id="fixture-2">
+      <span class="product-title">淡水夕陽半日遊</span>
+      <span class="price">NT$800</span>
+      <span class="location">新北市</span>
+    </article>
+  </main>
+  <script>
+    const card = document.createElement('article');
+    card.className = 'product-card';
+    card.dataset.id = 'fixture-3';
+    card.innerHTML = '<span class="product-title">故宮博物院導覽</span>'
+      + '<span class="price">NT$600</span>'
+      + '<span class="location">台北市</span>';
+    document.querySelector('#results').appendChild(card);
+  </script>
+</body>
+</html>
